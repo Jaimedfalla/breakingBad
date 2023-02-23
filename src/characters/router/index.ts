@@ -7,7 +7,7 @@ export const characterRoute:RouteRecordRaw = {
     redirect:{name:'character-list'},
     children: [
         {
-            path: 'by/id',
+            path: 'by/:id',
             name: 'character-id',
             props:{title: 'Character by Id',visible:false},
             component: ()=> import(/* webpackChunkName: "CharacterById" */ '@/characters/pages/CharacterId.vue')
