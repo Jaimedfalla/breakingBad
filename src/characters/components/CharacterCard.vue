@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { toRef } from "vue-demi";
+import { toRef } from "vue";
 import { useRouter } from "vue-router";
 import type { Character } from "../interfaces/Character";
 
